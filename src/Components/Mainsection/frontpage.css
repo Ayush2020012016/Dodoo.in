@@ -1,0 +1,94 @@
+.frontpagemaster{
+    display: flex;
+    background-image: linear-gradient(312deg ,black,30%,white ),url('../static/model.png');
+    height: 90vh;
+    z-index: -2;
+    /* border: 3px solid red; */
+
+}
+.firstsection{
+    width: 50%;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+   
+}
+.firstsection .companyvision{
+    width: 70%;
+    /* border: 3px solid red; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.companyvision .companyimage{
+    /* border: 3px solid red; */
+    font-size: 1.6em;
+    line-height: 2.1em;
+
+}
+.companyvision .companyimage img{
+   width: 13vw;
+   object-fit: contain;
+}
+.companyvision p{
+    font-size: 1.5em;
+    color: rgb(117, 112, 112);
+    font-style: italic;
+}
+.companyvision .para1{
+    margin-top: 1.7em;
+}
+.companyvision .para3{
+  margin-top: auto;
+  color: black;
+  font-weight: 600;
+  font-style: normal;
+  background-color: rgb(0, 210, 144);
+  border-radius: 20px;
+}
+.companyvision .download{
+    /* border: 3px solid red; */
+    width: 100%;
+    display: flex;
+}
+.companyvision .download .googlelink{
+    /* border: 3px solid red; */
+    width: 50%;
+    
+}
+.googlelink img{
+    width: 100%;
+    object-fit: contain;
+}
+.companyvision .download .applelink{
+    /* border: 3px solid red; */
+    width: 50%;
+
+}
+.applelink img{
+    width: 100%;
+    object-fit: contain;
+}
+.secondsection{
+   width: 59%;
+    /* border: 3px solid red; */
+}
+.secondsection img{
+    display: block;
+    width: 100%;
+    object-fit:cover;
+}
+@media (max-width:1200px)
+{
+    .frontpagemaster{
+        background-blend-mode: color;
+        /* opacity: .4; */
+    }
+    .secondsection{
+        display: none;
+    }
+    .firstsection{
+        width: 100%;
+    }
+}

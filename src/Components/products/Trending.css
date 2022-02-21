@@ -1,0 +1,71 @@
+.carousel{
+overflow: hidden;
+width: 80%;
+position: relative;
+}
+
+.inner{
+    white-space: nowrap;
+    transition:transform .3s;
+}
+
+.carousel-item{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: green;
+    color: white;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px
+}
+.indicators{
+    display: flex;
+    justify-content: center;
+}
+.indicators > button{
+    margin: 5px;
+    background: none;
+    border: none;
+    outline: none;
+}
+.carousel__btn{
+    position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+    z-index: 4;
+    width: 15px;
+    height: 15px;
+
+}
+.carousel__btn--prev{
+    left: 1%;
+}
+.carousel__btn--next{
+    right: 2%;
+}
+button.carousel__nav{
+    border: 2px solid rgb(0,  0, 0,.1);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: rgb(0,  0, 0,.3);
+}
+
+.CarouselContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.TrendingCarouselHeading{
+    margin: 1em;
+    margin-top: 3em;
+    font-family: 'Belleza', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+}

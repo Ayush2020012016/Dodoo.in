@@ -1,0 +1,52 @@
+.ProductGridContainer{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.ProductGridheading{
+    margin: 1em;
+    margin-top: 3em;
+    font-family: 'Belleza', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+}
+.productsGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 2em;
+    
+}
+.productImageContainer{
+/* border: 3px solid red; */
+}
+.product1{
+    grid-area:  1 / 1 / span 2 /span 2
+}
+
+.imagecontainer{
+    height: 90%;
+}
+.imagecontainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: 100%;
+    border-radius: 20px;
+}
+.discount{
+    text-align: center;
+}
+.discount .productsname{
+    font-family: 'Lora', serif;
+}
+.discount .productdiscount{
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+@media (max-width:700px)
+{
+    .productsGrid{
+        grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    }
+}

@@ -1,0 +1,52 @@
+.servicemaster{
+    position: relative;
+    z-index: 4;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em .9em;
+    /* border: solid red 3px; */
+}
+.serviceHeading{
+    margin: 1em;
+    margin-top: 3em;
+    font-family: 'Belleza', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+}
+.option{
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    /* border: solid red 3px; */
+}
+.option > *{
+    /* border: solid red 3px; */
+    padding: .5em;
+    flex: 1;
+}
+.option > *:hover{
+    cursor: pointer;
+}
+.option > * img{
+    width: 100%;
+    border-radius: 10%;
+}
+@media (max-width:1000px)
+{
+    
+    .option > *{
+       min-width: 40%;
+    }
+}
+@media (max-width:600px)
+{
+    .option {
+        flex-direction: column;
+    }
+    .option > *{
+        min-width: none;
+    }
+}

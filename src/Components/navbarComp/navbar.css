@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+.navbarmaster{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background :rgb(0, 210, 144)
+
+}
+.imagelogo{
+    width: 190px;
+    margin: 0 1em;
+
+}
+.list{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.listname{
+    margin: 0 .9em;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.placeSearch{
+    position: relative;
+}
+.placeSearch input{
+    padding: .8em 1.7em;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: initial;
+}
+.placeSearch i{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.list :nth-child(2){
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.list :nth-child(2) span{
+ color: white;
+}
+
+.list :nth-child(3) button{
+    padding: .5em 1.4em;
+    border-radius: 10px;
+    background: white;
+    border: none;
+    outline: none;
+    color: black;
+    text-transform: uppercase;
+    transition: background-color 2s;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    white-space: nowrap;
+}
+
+.list :nth-child(3) button:hover{
+   background: rgb(0, 255, 174);
+}
+.list :nth-child(4)
+{
+    color: white;
+    position: relative;
+}
+.list :nth-child(4) div{
+    display: flex;
+    position: absolute;
+    top: -.7em;
+    left: .7em;
+    background: red;
+    border-radius: 50%;
+    width: 1.3em;
+}
+.hamburger{
+    display: none;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:700px) {
+    .navbarmaster{
+        display: block;
+        text-align: center;
+    }
+    .navbarmaster img{
+        width: 140px;
+    }
+    .list{
+        display: none;
+    }
+    .list :nth-child(2)
+    {
+        display: inline-block;
+        margin: 0;
+    }
+    .list li{
+        margin: 1.4em 0;
+    }
+    .list :nth-child(4) div{
+        left:calc(50vw - 8px)
+    }
+    .placeSearch i{
+        left: calc(50vw - 87px);
+    }
+    .hamburger{
+        display: initial;
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+}
