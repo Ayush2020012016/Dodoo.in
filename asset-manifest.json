@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/github.io/Dodoo.in/static/css/main.8730204e.css",
+    "main.js": "/github.io/Dodoo.in/static/js/main.fa220392.js",
+    "static/media/model.png": "/github.io/Dodoo.in/static/media/model.5dc1969c70ea4c19b3a3.png",
+    "static/media/model2.png": "/github.io/Dodoo.in/static/media/model2.042fadf2f1a621318b06.png",
+    "static/media/FruitsAndVegetable.png": "/github.io/Dodoo.in/static/media/FruitsAndVegetable.e1d87bf683a3dba78deb.png",
+    "static/media/PickupAndDrop.png": "/github.io/Dodoo.in/static/media/PickupAndDrop.188dd4ed430738b6f187.png",
+    "static/media/groceriesAndEssential.png": "/github.io/Dodoo.in/static/media/groceriesAndEssential.640e66a39bbff2692ca6.png",
+    "static/media/Restuarants.jpg": "/github.io/Dodoo.in/static/media/Restuarants.bb4ce986d44e1acc3755.jpg",
+    "static/media/logo.png": "/github.io/Dodoo.in/static/media/logo.4cefd41874948aa9722a.png",
+    "static/media/grocery.jpg": "/github.io/Dodoo.in/static/media/grocery.7d3ca280bc6c3902491a.jpg",
+    "index.html": "/github.io/Dodoo.in/index.html",
+    "main.8730204e.css.map": "/github.io/Dodoo.in/static/css/main.8730204e.css.map",
+    "main.fa220392.js.map": "/github.io/Dodoo.in/static/js/main.fa220392.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8730204e.css",
+    "static/js/main.fa220392.js"
+  ]
+}
