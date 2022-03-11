@@ -9,13 +9,14 @@
     "dev": "concurrently --kill-others  \"cd client && npm run start\"  \"nodemon index.js\"",
     "client:build": "cd client && npm run build"
   },
-  "repository":{
-    "type":"git",
+  "repository": {
+    "type": "git",
     "url": "git+https://github.com/Ayush2020012016/Dodoo.in.git"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^7.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
