@@ -59,7 +59,9 @@ ul{
 .list :nth-child(2) span{
  color: white;
 }
-
+.list :nth-child(3){
+    position: relative;
+}
 .list :nth-child(3) button{
     padding: .5em 1.4em;
     border-radius: 10px;
@@ -72,10 +74,15 @@ ul{
     cursor: pointer;
     font-family: 'Source Sans Pro', sans-serif;
     white-space: nowrap;
+
 }
 
 .list :nth-child(3) button:hover{
    background: rgb(0, 255, 174);
+
+}
+.logoutmaster:hover .logout{
+ visibility: initial;
 }
 .list :nth-child(4)
 {
@@ -94,6 +101,15 @@ ul{
 .hamburger{
     display: none;
     margin-right: 10px;
+}
+.logout{
+    position: absolute;
+    left: 10px;
+    border-radius: 10px;
+    background-color: white;
+    padding:.5em;
+    font-size: .8em;
+    visibility: collapse;
 }
 
 @media screen and (max-width:700px) {

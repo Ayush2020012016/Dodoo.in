@@ -1,34 +1,40 @@
 import React , {useState} from 'react'
 import './Signupform.css'
-import axios from 'axios'
+import { useNavigate } from 'react-router-dom';
 
 const Signupform = () => {
-
-    const [user, setUser] = useState({name:"",email:"",password:"",confirmpassword:"",image:"https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg"});
+const navigate = useNavigate();
+    const [user, setUser] = useState({name:"",email:"",password:""});
     const HandleChange = (e)=>{
         console.log(e);
         const {name,value} =e.target;
         console.log(name,value);
         setUser({...user,[name]:value});
     }
-    const HandleSubmit = (e)=>{
-        e.preventDefault();
-        const registered  ={
-			name:user.name,
-            email:user.email,
-            password:user.password,
-
-        }
-        axios.post('http://localhost:4000/app/signup' , registered)
-        .then(response=>console.log(response.data))
-        window.location = '/'
-    }
+       const handleSubmit = async(e)=>{
+		   e.preventDefault();
+		   const res = await fetch("http://localhost:4000/signup",{
+			   method:'POST',
+			   headers:{'Content-Type':'application/json'},
+			   body:JSON.stringify({
+				   name:user.name,
+				   email:user.email,
+				   password:user.password,
+			   })
+		   })
+		   const data  = await res.json();
+		   console.log(data);
+		   if(data.status === 200)
+		   {
+			   navigate('/login');
+		   }
+	   }
   return (
 
 <div className="container">
 	<div className="screen">
 		<div className="screen__content">
-			<form className="login" onSubmit={HandleSubmit}>
+			<form className="login" onSubmit={handleSubmit}>
 				<div className="login__field">
 					<i className="login__icon fas fa-user"></i>
 					<input type="text" className="login__input" name='name' placeholder="name" onChange={HandleChange} value={user.fullName}/>
@@ -41,15 +47,8 @@ const Signupform = () => {
 					<i className="login__icon fas fa-lock"></i>
 					<input type="password" className="login__input" name='password' placeholder="Password" onChange={HandleChange} value={user.password}/>
 				</div>
-				<div className="login__field">
-					<i className="login__icon fas fa-lock"></i>
-					<input type="password" className="login__input" name='confirmpassword' placeholder="Password" onChange={HandleChange} value={user.confirmpassword}/>
-				</div>
-				<div className="login__field">
-					<i className="login__icon fas fa-lock"></i>
-					<input type="image/png" />
-					<input type="file"  accept="image/png, image/jpeg" className="login__input" name='image' placeholder="Password" onChange={HandleChange} value={user.image}/>
-				</div>
+				
+				
 				<button type='submit' value ='Submit' className="button login__submit">
 					<span className="button__text">Log In Now</span>
 					<i className="button__icon fas fa-chevron-right"></i>
@@ -58,9 +57,9 @@ const Signupform = () => {
 			<div className="social-login">
 				<h3>log in via</h3>
 				<div className="social-icons">
-					<a href="#" className="social-login__icon fab fa-instagram"></a>
-					<a href="#" className="social-login__icon fab fa-facebook"></a>
-					<a href="#" className="social-login__icon fab fa-twitter"></a>
+					<a href="#/" className="social-login__icon fab fa-instagram"> </a>
+					<a href="#/" className="social-login__icon fab fa-facebook"> </a>
+					<a href="#/" className="social-login__icon fab fa-twitter"> </a>
 				</div>
 			</div>
 		</div>

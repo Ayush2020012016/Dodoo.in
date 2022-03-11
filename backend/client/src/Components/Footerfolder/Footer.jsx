@@ -40,11 +40,11 @@ const Footer = () => {
                 <div className=" FooterListHeader">Get Social With us</div>
                     <ul className="FooterSocialContainer">
                         
-                        <li className="FooterSocialList"><a href="/"><span><i class="fab fa-facebook-square"></i></span></a></li>
-                        <li className="FooterSocialList"><a href="/"><span><i class="fab fa-instagram"></i></span></a></li>
-                        <li className="FooterSocialList"><a href="/"><span><i class="fab fa-linkedin-in"></i></span></a></li>
-                        <li className="FooterSocialList"><a href="/"><span><i class="fab fa-twitter"></i></span></a></li>
-                        <li className="FooterSocialList"><a href="/"><span><i class="fab fa-pinterest"></i></span></a></li>
+                        <li className="FooterSocialList"><a href="/"><span><i className="fab fa-facebook-square"></i></span></a></li>
+                        <li className="FooterSocialList"><a href="/"><span><i className="fab fa-instagram"></i></span></a></li>
+                        <li className="FooterSocialList"><a href="/"><span><i className="fab fa-linkedin-in"></i></span></a></li>
+                        <li className="FooterSocialList"><a href="/"><span><i className="fab fa-twitter"></i></span></a></li>
+                        <li className="FooterSocialList"><a href="/"><span><i className="fab fa-pinterest"></i></span></a></li>
                     </ul>
                 </div>
             </div>

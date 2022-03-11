@@ -13,11 +13,11 @@ const Reviews = () => {
                     </div>
                     <div className="reviewCardStarAndDate">
                         <div className="star">
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
                              </div>
                         <div className="date">4-4-2021</div>
                     </div>
@@ -34,11 +34,11 @@ const Reviews = () => {
                     </div>
                     <div className="reviewCardStarAndDate">
                         <div className="star">
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
                              </div>
                         <div className="date">4-4-2021</div>
                     </div>
@@ -55,11 +55,11 @@ const Reviews = () => {
                     </div>
                     <div className="reviewCardStarAndDate">
                         <div className="star">
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
                              </div>
                         <div className="date">4-4-2021</div>
                     </div>
@@ -76,11 +76,11 @@ const Reviews = () => {
                     </div>
                     <div className="reviewCardStarAndDate">
                         <div className="star">
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
                              </div>
                         <div className="date">4-4-2021</div>
                     </div>
@@ -98,11 +98,11 @@ const Reviews = () => {
                     </div>
                     <div className="reviewCardStarAndDate">
                         <div className="star">
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
                              </div>
                         <div className="date">4-4-2021</div>
                     </div>
@@ -119,11 +119,11 @@ const Reviews = () => {
                     </div>
                     <div className="reviewCardStarAndDate">
                         <div className="star">
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
                              </div>
                         <div className="date">4-4-2021</div>
                     </div>
@@ -140,11 +140,11 @@ const Reviews = () => {
                     </div>
                     <div className="reviewCardStarAndDate">
                         <div className="star">
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
                              </div>
                         <div className="date">4-4-2021</div>
                     </div>
@@ -161,11 +161,11 @@ const Reviews = () => {
                     </div>
                     <div className="reviewCardStarAndDate">
                         <div className="star">
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
-                             <span><i class="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
+                             <span><i className="fas fa-star"></i></span>
                              </div>
                         <div className="date">4-4-2021</div>
                     </div>

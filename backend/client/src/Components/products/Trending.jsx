@@ -26,7 +26,6 @@ const Carousel = ({ children }) => {
   });
 
   const updateIndex = (newIndex) => {
-    console.log("inside updateindex", newIndex);
     if (newIndex < 0) {
       newIndex = React.Children.count(children) - 1;
     }
@@ -49,7 +48,7 @@ const Carousel = ({ children }) => {
       <div className="indicators">
         <button className='carousel__btn carousel__btn--prev' onClick={() => {
           updateIndex(activeIndex - 1);
-        }}> <span><i class="fas fa-chevron-circle-left fa-2x"></i></span>  </button>
+        }}> <span><i className="fas fa-chevron-circle-left fa-2x"></i></span>  </button>
 
         {React.Children.map(children, (child, index) => {
           return (
@@ -66,7 +65,7 @@ const Carousel = ({ children }) => {
 
         <button className='carousel__btn carousel__btn--next' onClick={() => {
           updateIndex(activeIndex + 1);
-        }}> <span><i class="fas fa-chevron-circle-right fa-2x"></i></span>  </button>
+        }}> <span><i className="fas fa-chevron-circle-right fa-2x"></i></span>  </button>
 
 
       </div>

@@ -7,6 +7,9 @@ import ProductsGrid from './Components/products/ProductsGrid';
 import Reviews from './Components/Reviewsfolder/Reviews'
 import Footer from './Components/Footerfolder/Footer'
 import Signupform from './Components/navbarComp/Signupform'
+import Loginform from './Components/navbarComp/login/Loginform'
+import Productdetail from './Components/Aboutproduct/Productdetail'
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -23,6 +26,8 @@ const App = () => {
       <Router>
         <Routes>
           <Route path="/signup" element={<Signupform />}/>
+          <Route path="/login" element={<Loginform />}/>
+          <Route path="/product" element={<Productdetail />}/>
           <Route path="/" element={<>
             <Frontpage />
             <Services />

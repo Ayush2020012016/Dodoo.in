@@ -2,19 +2,24 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
+  "homepage": "https://github.com/Ayush2020012016/Dodoo.in",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon index.js",
+    "dev": "concurrently --kill-others  \"cd client && npm run start\"  \"nodemon index.js\"",
+    "client:build": "cd client && npm run build"
   },
-  "author": "Ayush Nautiyal",
+  "repository":{
+    "type":"git",
+    "url": "git+https://github.com/Ayush2020012016/Dodoo.in.git"
+  },
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.25.0",
-    "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
-    "express": "^4.17.2",
-    "mongoose": "^6.2.1",
-    "nodemon": "^2.0.15"
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.3"
   }
 }

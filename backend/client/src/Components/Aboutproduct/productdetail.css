@@ -1,0 +1,20 @@
+.productdetailMaster{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid red;
+}
+.productdetailFirstpart{
+    width: 40%;
+    border: 3px solid red;
+}
+.productdetailFirstpart img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.productdetailSecondpart{
+    width: 60%;
+    border: 3px solid red;
+}

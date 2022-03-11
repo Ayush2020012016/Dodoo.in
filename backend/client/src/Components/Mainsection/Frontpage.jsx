@@ -1,8 +1,8 @@
 import React from 'react';
 import model from '../static/model.png'
-import model2 from '../static/model2.png'
+// import model2 from '../static/model2.png'
 import logo from '../static/logo.png'
-import grocery from '../static/grocery.jpg'
+// import grocery from '../static/grocery.jpg'
 import googleplaystore from '../static/googleplaystore.png'
 import apple from '../static/apple.png'
 import './frontpage.css'
