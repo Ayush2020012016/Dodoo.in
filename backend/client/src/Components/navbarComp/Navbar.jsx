@@ -13,7 +13,7 @@ const Navbar = () => {
       const obj = JSON.parse(c);
       const email = obj.email;
       const info =async()=>{
-        const res = await fetch("http://localhost:4000/user",{
+        const res = await fetch("https://heroku-doodo.herokuapp.com/user",{
           method:'POST',
           headers:{
             'Content-Type':'application/json' 
